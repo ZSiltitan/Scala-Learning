@@ -1,0 +1,89 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.5 (Oracle Corporation Java 11.0.12)
+[debug] Load.defaultLoad until apply took 419.725239ms
+[debug]           Load.loadUnit: plugins took 114.788401ms
+[debug]           Load.loadUnit: defsScala took 0.341148ms
+[debug] [Loading] Scanning directory /Users/zexi.zeng/Documents/Personal/Self_Learn/zexi-scala-beginners/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/zexi.zeng/Documents/Personal/Self_Learn/zexi-scala-beginners/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 20.148324 ms
+[debug]               Load.resolveProject(zexi-scala-beginners-build) took 58.730238ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id zexi-scala-beginners-build, base: /Users/zexi.zeng/Documents/Personal/Self_Learn/zexi-scala-beginners/project, plugins: List(<none>))) took 122.009421ms
+[debug] [Loading] Done in /Users/zexi.zeng/Documents/Personal/Self_Learn/zexi-scala-beginners/project, returning: (zexi-scala-beginners-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 143.823868ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.253212ms
+[debug]         Load.loadUnit(file:/Users/zexi.zeng/Documents/Personal/Self_Learn/zexi-scala-beginners/project/, ...) took 265.579982ms
+[debug]       Load.apply: load took 832.490408ms
+[debug]       Load.apply: resolveProjects took 6.665086ms
+[debug]       Load.apply: finalTransforms took 59.796074ms
+[debug]       Load.apply: config.delegates took 6.974233ms
+[debug]       Load.apply: Def.make(settings)... took 382.976366ms
+[debug]       Load.apply: structureIndex took 93.779893ms
+[debug]       Load.apply: mkStreams took 1.60195ms
+[info] loading project definition from /Users/zexi.zeng/Documents/Personal/Self_Learn/zexi-scala-beginners/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2126.003421ms
+[debug]     Load.loadUnit: defsScala took 0.003773ms
+[debug] [Loading] Scanning directory /Users/zexi.zeng/Documents/Personal/Self_Learn/zexi-scala-beginners
+[debug]       Load.loadUnit: mkEval took 7.142118ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/zexi.zeng/Documents/Personal/Self_Learn/zexi-scala-beginners, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.014089 ms
+[info] loading settings for project zexi-scala-beginners from build.sbt ...
+[debug]         Load.resolveProject(zexi-scala-beginners) took 2.34249ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id zexi-scala-beginners, base: /Users/zexi.zeng/Documents/Personal/Self_Learn/zexi-scala-beginners, plugins: List(<none>))) took 4.84825ms
+[debug] [Loading] Done in /Users/zexi.zeng/Documents/Personal/Self_Learn/zexi-scala-beginners, returning: (zexi-scala-beginners)
+[debug]     Load.loadUnit: loadedProjectsRaw took 94.278276ms
+[debug]     Load.loadUnit: cleanEvalClasses took 5.415103ms
+[debug]   Load.loadUnit(file:/Users/zexi.zeng/Documents/Personal/Self_Learn/zexi-scala-beginners/, ...) took 2227.055906ms
+[debug] Load.apply: load took 2250.914072ms
+[debug] Load.apply: resolveProjects took 0.086448ms
+[debug] Load.apply: finalTransforms took 11.729957ms
+[debug] Load.apply: config.delegates took 0.326877ms
+[debug] Load.apply: Def.make(settings)... took 80.443583ms
+[debug] Load.apply: structureIndex took 24.951249ms
+[debug] Load.apply: mkStreams took 0.002594ms
+[info] set current project to zexi-scala-beginners (in build file:/Users/zexi.zeng/Documents/Personal/Self_Learn/zexi-scala-beginners/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///Users/zexi.zeng/.sbt/1.0/server/35c770d6717791f2fd2c/sock
+[debug] Writing bsp connection file
+[info] started sbt server
